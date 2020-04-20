@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add fastify
+
+PATH: 
+  /home/scy/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/scy/Android/Sdk/tools:/home/scy/Android/Sdk/platform-tools:/home/scy/android-studio/bin:/home/scy/Android/Sdk/tools:/home/scy/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ECONNREFUSED 104.16.16.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+
+npm manifest: 
+  {
+    "name": "b",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
