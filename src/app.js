@@ -2,7 +2,7 @@ const fastify = require('fastify')({
   logger: true
 })
 
-fastify.get('/', async (request, reply) => {
+fastify.get('/', (request, reply) => {
   reply.type('application/json').code(200)
   return { hello: 'world' }
 })
